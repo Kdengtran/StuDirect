@@ -1,3 +1,4 @@
+# standard libraries
 import os
 import sys
 
@@ -10,4 +11,5 @@ from helper import *
 user_input = input('Please enter your date of birth: ')
 
 if __name__ == '__main__':
+    # prompt user input
     print(age(user_input))
