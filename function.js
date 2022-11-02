@@ -1,4 +1,4 @@
-window.function = function (str, start, end) {
+load_data = function (str, start, end) {
     
     str = str.value ?? "";
     start = start.value ?? 0;
@@ -7,6 +7,7 @@ window.function = function (str, start, end) {
     return str.substring(start, end);
 }
 
+console.log(load_data)
 
 
 

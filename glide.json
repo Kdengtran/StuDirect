@@ -9,17 +9,17 @@
           "name": "string",
           "displayName": "String",
           "type": "string"
-        },
-        {
-          "name": "start",
-          "displayName": "Start index",
-          "type": "number"
-        },
-        {
-          "name": "end",
-          "displayName": "End index",
-          "type": "number"
         }
+        // {
+        //   "name": "start",
+        //   "displayName": "Start index",
+        //   "type": "number"
+        // },
+        // {
+        //   "name": "end",
+        //   "displayName": "End index",
+        //   "type": "number"
+        // }
       ],
       "result": {
         "type": "string"
