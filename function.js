@@ -1,15 +1,17 @@
-load_data = function (str, start, end) {
+// load_data = function (code) {
     
-    str = str.value ?? "";
-    start = start.value ?? 0;
-    end = end.value;
+//     str = code.value;
+//     // start = start.value ?? 0;
+//     // end = end.value;
 
-    return str.substring(start, end);
-}
+//     console.log(code)
 
-console.log(load_data)
+//     return str.substring(str);
+// }
 
+// console.log(load_data)
 
+console.log(code.value)
 
 
 
