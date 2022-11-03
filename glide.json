@@ -1,9 +1,9 @@
 [
   {
     "kind": "column",
-    "name": "Substring",
-    "description": "Extracts a substring out of a string. Both start and end indexes are optional. The end index is exclusive.",
-    "author": "Mark Probst <mark@glideapps.com>",
+    "name": "Recommendation",
+    "description": "Takes strings as input (i.e. variables) and returns a recommendation.",
+    "author": "Kevin Tran",
     "params": [
       {
         "name": "string",
