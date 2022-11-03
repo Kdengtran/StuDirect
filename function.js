@@ -22,7 +22,7 @@ window.function = function(str) {
   
     output = fetch_data(str);
 
-    return output
+    return String(output)
     // return str.substring(start, end);
   }
 
