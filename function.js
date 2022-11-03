@@ -9,20 +9,13 @@ window.function = function(str) {
   
       const response = await fetch(url + new URLSearchParams({input: input}))
   
-      .then(response => response.json());
-  
-      console.log(url);
-      console.log(response);
-  
-      output = JSON.parse(response);
-      
-      return output['index'];
+      .then(response => response.json())
+
+      return response['index']
   
     }
-  
-    output = fetch_data(str);
 
-    return String(output)
+    return fetch_data(str);
     // return str.substring(start, end);
   }
 
