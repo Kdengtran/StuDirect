@@ -7,7 +7,7 @@ window.function = function(str) {
       // API endpoint
       const url = 'https://rijstkoker.pythonanywhere.com/?'
   
-      const response = await fetch(url + new URLSearchParams({input: input}))
+      const response = await fetch(url + new URLSearchParams({input: String(input)}))
   
       .then(response => response.json())
   
