@@ -2,12 +2,12 @@ window.function = function(str) {
 
     str = str.value;
   
-    async function fetch_data() {
+    async function fetch_data(input) {
 
       // API endpoint
       const url = 'https://rijstkoker.pythonanywhere.com/?'
   
-      const response = await fetch(url + new URLSearchParams({input: 'kaas'}))
+      const response = await fetch(url + new URLSearchParams({input: input}))
   
       .then(response => response.json())
   
@@ -22,9 +22,7 @@ window.function = function(str) {
   
     output = fetch_data();
 
-    console.log(output)
-
-    return str
+    return output
     // return str.substring(start, end);
   }
 
