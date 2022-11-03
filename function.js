@@ -9,7 +9,7 @@ window.function = function(str) {
 
     .then(response => response.json())
 
-    return response['index']
+    return console.log(response['index'])
 
     }
   
