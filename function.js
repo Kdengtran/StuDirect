@@ -1,4 +1,4 @@
-let f = function(str, start, end) {
+windows.function = function(str, start, end) {
 
     str = str.value;
     start = start.value;
