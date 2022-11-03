@@ -2,25 +2,25 @@ window.function = function(str) {
 
     str = str.value;
   
-    async function fetch_data() {
+    // async function fetch_data() {
 
-      // API endpoint
-      const url = 'https://rijstkoker.pythonanywhere.com/?'
+    //   // API endpoint
+    //   const url = 'https://rijstkoker.pythonanywhere.com/?'
   
-      const response = await fetch(url + new URLSearchParams({input: str}))
+    //   const response = await fetch(url + new URLSearchParams({input: str}))
   
-      .then(response => response.json())
+    //   .then(response => response.json())
   
-      console.log(url)
-      console.log(response)
+    //   console.log(url)
+    //   console.log(response)
   
-      output = JSON.parse(response)
+    //   output = JSON.parse(response)
       
-      return output['index'];
+    //   return output['index'];
   
-    }
+    // }
   
-    output = fetch_data();
+    // output = fetch_data();
 
     return str
     // return str.substring(start, end);
