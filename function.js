@@ -20,7 +20,7 @@ window.function = function(str) {
   
     }
   
-    output = fetch_data();
+    output = fetch_data(str);
 
     return output
     // return str.substring(start, end);
