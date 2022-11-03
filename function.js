@@ -1,8 +1,6 @@
-window.function = function(str, start, end) {
+window.function = function(str) {
 
     str = str.value;
-    start = start.value;
-    end = end.value;
   
     async function fetch_data() {
 
