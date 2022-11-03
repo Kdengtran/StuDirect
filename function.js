@@ -14,6 +14,6 @@ window.function = function(str) {
     }
   
     // return fetch_data(str.value);
-    return str
+    return str.value
 
   }
