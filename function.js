@@ -1,4 +1,4 @@
-windows.function = function(str, start, end) {
+window.function = function(str, start, end) {
 
     str = str.value;
     start = start.value;
