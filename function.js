@@ -13,6 +13,7 @@ window.function = function(str) {
 
     }
   
-    return fetch_data(str.value);
+    // return fetch_data(str.value);
+    return str
 
   }
