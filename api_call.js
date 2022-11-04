@@ -11,4 +11,5 @@ async function fetch_data(data) {
 
 }
 
-fetch_data('ppp')
+// run the following in the terminal: node api_call.js
+fetch_data('Als deze hele zin bestaat uit hoofdletters, dan werkt de functie!')

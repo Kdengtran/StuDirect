@@ -13,11 +13,11 @@ def handle_request():
     # API endpoint /?input=
     text = str(request.args.get('input'))
 
-    # perform method
-    text_upper = upper(text)
+    # perform method imported from helper.py
+    output = upper(text)
 
     # make sure the output is JSON and cross-origin is enabled; necessary for Glide fetch column function
-    response = jsonify(key=text, value=text_upper)
+    response = jsonify(key=text, value=output)
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response

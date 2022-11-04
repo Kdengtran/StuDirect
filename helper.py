@@ -12,7 +12,7 @@ def api_call(data_from_glide):
     # JSON response. For the url, change .json() to .url
     response = rq.get(base_url, params=payload).json()
 
-    return print(response)
+    return print(response['value'])
 
 # geboortedatum omrekenen naar leeftijd
 def age(datum):
