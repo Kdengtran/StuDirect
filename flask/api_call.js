@@ -1,4 +1,4 @@
-async function fetch_data(data) {
+export async function fetch_data(data) {
 
     // API endpoint
     const url = 'https://rijstkoker.pythonanywhere.com/?'
