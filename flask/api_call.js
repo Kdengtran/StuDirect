@@ -1,19 +1,14 @@
-async function fetch_data() {
+async function fetch_data(data) {
 
     // API endpoint
     const url = 'https://rijstkoker.pythonanywhere.com/?'
 
-    const response = await fetch(url + new URLSearchParams({input: 'kaas'}))
+    const response = await fetch(url + new URLSearchParams({input: data}))
 
     .then(response => response.json())
-
-    console.log(url)
-    console.log(response)
-
-    output = JSON.parse(response)
     
-    return output['index'];
+    return console.log(response['input'])
 
 }
 
-fetch_data()
+// fetch_data('pindakaas')
