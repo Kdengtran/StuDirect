@@ -7,6 +7,7 @@ app = Flask(__name__)
 def handle_request():
 
     text = str(request.args.get('input'))
+    text = text.upper()
 
     def format_to_json(text):
 
