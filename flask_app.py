@@ -1,6 +1,8 @@
+# import libraries
 from flask import Flask, request, jsonify
 
-from helper import upper
+# import functions from helper.py
+from helper import *
 
 # initialise flask app
 app = Flask(__name__)
@@ -19,3 +21,7 @@ def handle_request():
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
+
+# check whether the API returns a string
+if __name__ == '__main__':
+    api_call('pizza')
