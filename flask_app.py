@@ -24,4 +24,4 @@ def handle_request():
 
 # check whether the API returns a string
 if __name__ == '__main__':
-    api_call('pizza')
+    api_call('Als deze hele zin bestaat uit hoofdletters, dan werkt de functie!')

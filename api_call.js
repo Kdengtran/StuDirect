@@ -7,7 +7,7 @@ async function fetch_data(data) {
 
         .then(response => response.json())
     
-    return console.log(typeof response)
+    return console.log(response)
 
 }
 
