@@ -9,3 +9,8 @@ def age(datum):
     age = today.year - born.year - ((today.month, today.day) < (born.month, born.day))
 
     return '\nYou\'re {} years old!'.format(age)
+
+# capitalise input
+def upper(text):
+
+    return text.upper()

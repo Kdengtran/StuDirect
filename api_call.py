@@ -11,11 +11,11 @@ def run_something(data_from_glide):
     # the variables used for the recommender system
     payload = {'input': data_from_glide}
 
-    response = rq.get(base_url, params=payload)
+    response = rq.get(base_url, params=payload).json()
 
     print(rq.get(base_url, params=payload).url)
 
-    return print(response)
+    return print(response['key'])
 
 if __name__ == '__main__':
     run_something('pizza')
