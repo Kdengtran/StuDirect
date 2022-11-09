@@ -16,6 +16,9 @@ def api_call(data_from_glide):
 
 # geboortedatum omrekenen naar leeftijd
 def age(datum):
+    '''
+        This functions returns your age based on your birth date.
+    '''
 
     born = datetime.strptime(datum, "%d/%m/%Y").date()
     today = date.today()
@@ -28,4 +31,3 @@ def age(datum):
 def upper(text):
 
     return text.upper()
-
