@@ -21,3 +21,6 @@ def handle_request():
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
+
+# if __name__ =='__main__':
+#     app.run(host='0.0.0.0')

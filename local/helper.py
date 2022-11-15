@@ -14,9 +14,9 @@ def pythonanywhere_api_call(data_from_glide):
     # JSON response. For the url, change .json() to .url
     response = rq.get(base_url, params=payload).json()
 
-    print(response)
+    # print(response)
 
-    return print(response['value'])
+    return response['key']
 
 def google_api_call():
 
