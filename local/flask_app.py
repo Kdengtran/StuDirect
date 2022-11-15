@@ -21,7 +21,3 @@ def handle_request():
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
-
-# check whether the API returns a string
-# if __name__ == '__main__':
-#     api_call('Als deze hele zin bestaat uit hoofdletters, dan werkt de functie!')
