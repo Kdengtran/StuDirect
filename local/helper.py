@@ -34,5 +34,39 @@ def google_api_call():
 
     return print(df)
 
+def clean(df):
+    
+    # make sure we don't fuck up anything
+    profile = df.copy()
+    
+    try:
+    
+        # add spaces after the comma; only necessary for user profiles
+        extra_whitespace = ['Core Values', 'Industry Interest', 'Technical Skills', 'Social Skills', 'Desired Skills']
+        profile[extra_whitespace] = profile[extra_whitespace].str.replace(',', ', ')
+
+    except:
+        
+        pass
+    
+    # remove English stopwords and lowercase all tokens
+    english_stopwords = stopwords.words('english')
+    cleaned = [str(word).lower() for word in profile if word not in english_stopwords]
+    
+    # transform into string 
+    output = " ".join(token for token in cleaned)
+    
+    # remove punctuation, unnecesarry whitespaces and new lines
+    output = output.translate(str.maketrans('', '', string.punctuation)).replace('\n', ' ').replace('  ', ' ')
+    
+    return output
+
+def match(user, job):
+    
+    bow_model = TfidfVectorizer()
+    tf_idf = bow_model.fit_transform([clean(user), clean(job)])
+    
+    return (user.name, job.name, cosine_similarity(tf_idf)[0][1].round(2))
+
 if __name__ == '__main__':
-    recommendation()
+    pass
