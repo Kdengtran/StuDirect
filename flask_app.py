@@ -9,12 +9,24 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def handle_request():
+    """This function obtains the user profile from Glide, runs the RecSys script, and returns the top n matches.
+
+    Returns:
+        JSON: Returns the unique Row IDs of the job profiles
+    """
 
     # API endpoint /?input=
-    text = str(request.args.get('input'))
+    user_profile = str(request.args.get('input'))
 
-    # perform method imported from helper.py
-    output = upper(text)
+    # TODO
+    # create DataFrame from user_profile
+
+    # TODO 
+    # obtain all the job profiles using the google_api_call function
+
+    # TODO 
+    # match and rank
+    output = upper(user_profile)
 
     # make sure the output is JSON and cross-origin is enabled; necessary for Glide fetch column function
     response = jsonify(key=text, value=output)
@@ -22,6 +34,5 @@ def handle_request():
 
     return response
 
-# check whether the API returns a string
 if __name__ == '__main__':
-    api_call('Als deze hele zin bestaat uit hoofdletters, dan werkt de functie!')
+    ...
