@@ -26,7 +26,7 @@ def handle_request():
 
     # TODO 
     # match and rank
-    output = upper(user_profile)
+    output = upper(user_profile) # REPLACE THIS WITH THE MATCH AND RANK FUNCTION
 
     # make sure the output is JSON and cross-origin is enabled; necessary for Glide fetch column function
     response = jsonify(key=text, value=output)
