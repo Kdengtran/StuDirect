@@ -20,6 +20,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 def pythonanywhere_api_call(data_from_glide):
     """This function tests whether the API on Pythonanywhere works.
 
+       If all works well, push the flask_app.py to Pythonanywhere!
+
     Args:
         data_from_glide (JSON): Data seperated by ;
 

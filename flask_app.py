@@ -9,7 +9,9 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def handle_request():
-    """This function obtains the user profile from Glide, runs the RecSys script, and returns the top n matches.
+    """This function obtains the user profile from Glide, runs the RecSys script, and returns the top n matches. 
+
+       If the pythonanywhere_call_api functions works properly, push this to Pythonanywhere!
 
     Returns:
         JSON: Returns the unique Row IDs of the job profiles
