@@ -1,75 +1,136 @@
-🔒 Row ID,CompanyID,Active,Job Title,Type of Contract,Industry,Place,Where,Salary per hour,Hours per week,Language,Education,WhatYouLearn,WhatYouDo,WhyUs,WhoAreYou,Bedrijf Naam,Logo,Banner,Core Values
-jOXAILTTSTWinrTqGrZuqg,CyZrkqCOTLGVE6jQtBIEkg,Active,Junior Risk Advisory Consultant,Parttime,Audit,Amsterdam,Hybride,16.5,16,"English,Dutch",WO,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nec tincidunt praesent semper feugiat nibh. Eu scelerisque felis imperdiet proin fermentum leo. Ullamcorper sit amet risus nullam eget felis eget nunc. Quis varius quam quisque id. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Non diam phasellus vestibulum lorem sed risus. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Egestas sed sed risus pretium quam. Elementum facilisis leo vel fringilla est. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Ornare massa eget egestas purus viverra accumsan. Eget velit aliquet sagittis id. Sit amet tellus cras adipiscing enim eu turpis. Vestibulum morbi blandit cursus risus at. Dapibus ultrices in iaculis nunc sed augue. Sit amet justo donec enim diam vulputate. Ultricies mi eget mauris pharetra et ultrices.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nec tincidunt praesent semper feugiat nibh. Eu scelerisque felis imperdiet proin fermentum leo. Ullamcorper sit amet risus nullam eget felis eget nunc. Quis varius quam quisque id. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Non diam phasellus vestibulum lorem sed risus. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Egestas sed sed risus pretium quam. Elementum facilisis leo vel fringilla est. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Ornare massa eget egestas purus viverra accumsan. Eget velit aliquet sagittis id. Sit amet tellus cras adipiscing enim eu turpis. Vestibulum morbi blandit cursus risus at. Dapibus ultrices in iaculis nunc sed augue. Sit amet justo donec enim diam vulputate. Ultricies mi eget mauris pharetra et ultrices.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nec tincidunt praesent semper feugiat nibh. Eu scelerisque felis imperdiet proin fermentum leo. Ullamcorper sit amet risus nullam eget felis eget nunc. Quis varius quam quisque id. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Non diam phasellus vestibulum lorem sed risus. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Egestas sed sed risus pretium quam. Elementum facilisis leo vel fringilla est. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Ornare massa eget egestas purus viverra accumsan. Eget velit aliquet sagittis id. Sit amet tellus cras adipiscing enim eu turpis. Vestibulum morbi blandit cursus risus at. Dapibus ultrices in iaculis nunc sed augue. Sit amet justo donec enim diam vulputate. Ultricies mi eget mauris pharetra et ultrices.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nec tincidunt praesent semper feugiat nibh. Eu scelerisque felis imperdiet proin fermentum leo. Ullamcorper sit amet risus nullam eget felis eget nunc. Quis varius quam quisque id. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Non diam phasellus vestibulum lorem sed risus. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Egestas sed sed risus pretium quam. Elementum facilisis leo vel fringilla est. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Ornare massa eget egestas purus viverra accumsan. Eget velit aliquet sagittis id. Sit amet tellus cras adipiscing enim eu turpis. Vestibulum morbi blandit cursus risus at. Dapibus ultrices in iaculis nunc sed augue. Sit amet justo donec enim diam vulputate. Ultricies mi eget mauris pharetra et ultrices.",StuDirect,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/xDs6DsFMh3FllapKJNue.png,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/3rCeQ1amvRDzr8XZ5QWe.jpeg,"Personal Growth,Making Impact"
-5FHiPOELRT-S1QXx8J4FdQ,CyZrkqCOTLGVE6jQtBIEkg,Active,Werkstudent CORE,Parttime,Audit,Amsterdam,Hybride,13.5,16,Dutch,WO,"As a working student within CORE, your passion lies in the
-improving business processes and management
-changing risks within organizations. The
-clients range from listed companies
-organizations to public institutions.
+🔒 Row ID,CompanyID,Active,Job Title,Type of Contract,Industry,Place,Where,Salary per hour,Hours per week,Language,Education,WhatYouLearn,WhatYouDo,WhyUs,WhoAreYou,CompanyName,Logo,Banner,Core Values,Lang List
+5FHiPOELRT-S1QXx8J4FdQ,CyZrkqCOTLGVE6jQtBIEkg,Active,Full Stack Developer,Parttime,Audit,Amsterdam,Hybrid,15,24,"English,Dutch",WO,"As a part-time full stack developer at StuDirect, you will have the opportunity to work on a cutting-edge vacancy platform that connects students with employers. You will be responsible for developing and maintaining the front-end and back-end of our platform, ensuring that it is user-friendly and reliable. This will involve implementing new features, fixing bugs, and optimizing the performance of the platform.","In this role, you will have the chance to learn and apply a variety of technologies, including HTML, CSS, JavaScript, and Python. You will also have the opportunity to work closely with our team of experienced developers and learn from them. This will allow you to gain valuable experience and skills that will help you advance your career in the field of full stack development.","At StuDirect, we are passionate about helping students find their ideal job. By joining our team, you will be contributing to a meaningful cause and making a positive impact on the lives of students. We are a small but dedicated team, and we are looking for someone who shares our values and is willing to go the extra mile to help us achieve our goals.","We are looking for a motivated and talented developer who is willing to learn and grow with our company. The ideal candidate will have a strong understanding of full stack development and a passion for technology. In addition, we are looking for someone who is a good communicator, a problem-solver, and a team player. If this sounds like you, we encourage you to apply for this exciting opportunity.",StuDirect,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/xDs6DsFMh3FllapKJNue.png,"glide:mesh,StuDirect","Personal Growth,Making Impact",English - Dutch
+aX84O.QlSjKUuSfDWM23Ng,H.-hSQUORYuJaNMVGnvMng,Active,Business Analyst,Fulltime,Food,Tilburg,Hybride,20,40,"English,Dutch,German",WO,"As our Business Analyst (BA) you will play a key role in the FFA-team and at our clients. You will be the person business stakeholders talk to when it comes to their wishes and requests. Based on those wishes and requests you will gather and define requirements both on a functional and technical level. And while you are at it, implement and deliver the new functionality in the client’s solution as well! This includes supporting implementations by training users, acceptance tests etc.","- Business process (re-)engineering and documentation.
+- Requirements analysis and documentation.
+- Be the linking pin between technology and business whilst truly getting down to the bottom of things.
+- Be able to understand and transform business requirements into a technical implementation to support decision making.
+- Craft and maintain documentation of all data & analytics initiatives.
+- Facilitate and support the implementation of the solution, compliant to the requirements set for the standardized products / client projects.","Your learnings from our clients and input will flow back in the Food For Analytics innovation program. We are constantly innovating in a scalable, flexible and robust way. Hence, we come together and work on internal projects, innovations, and propositions that will accelerate the digital transformation and data-centricity-programs for companies within food-and retail industry in an easy-going, friendly environment.
 
-You are engaged in risk management assignments from
-both a monitoring and transformation perspective.
-Monitoring allows you to see where the risks are most important
-business processes and whether these risks are sufficient
-are covered and, where necessary, you advise on the
-needed improvements.
+At Food For Analytics we value our employees and aim to maximize your potential so that you can become the expert in your field and thereby help our clients to the next level in their journey to data-centricity.","- Perseverance, drive and a deep feeling of ownership.
+- A Passion for working with all kinds of data.
+- Strong analytical to link business requirements and definitions with technical engineers it and vice versa.
+- You have a relevant MSc or BSc degree
+- You’ve got knowledge of MS office tools
+- You’re analytical, Customer driven, pragmatic and have excellent communication skills.
+- Proficient in Dutch, English and German;
+- Willingness to occasionally travel to production sites (Netherlands and Germany);
+- No 9 to 5 mentality.",Food for Analytics,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/h4ffjcu8po5Z9aT94x1h.png,"glide:mesh,Food for Analytics",,English - Dutch - German
+I-NrC.VDRfaZSo-Az6izug,H.-hSQUORYuJaNMVGnvMng,Active,Data & Analytics Consultant,Fulltime,Food,Tilburg,Hybride,20,40,"English,Dutch,German",WO,"Do you want to work in the team that is building the next generation data platform for the food-industry? Are you the linking pin between business & engineering and ready to actually make an impact? Stop looking any further. We need you! 
 
-You advise and assist companies in major transformations
-executing strategic projects for their
-achieve objectives. You provide the customer
-analyzes and concrete recommendations that you then
-can implement together.
+As our Data & Analytics Consultant you will play a key role in the FFA-team and our clients. You will be the person business stakeholders talk to when it comes to their wishes and requests. Based on those wishes and requests you will define requirements both on a functional and technical level. And while you are at it, implement and deliver the new functionality in the client’s solution as well!","- Be the linking pin between technology and business whilst truly getting down to the bottom of things.
+- Design, develop, and implement product features into the FFA standardized products and client projects.
+- Anticipate, identify, and solve issues concerning data management to improve data quality
+- Analyze and profile data for the purpose of designing scalable solutions and delivering new insights to our clients.
+- Clean, prepare, and structure data at scale for ingestion and consumption.
+- Be able to understand and transform business requirements into a technical implementation to support decision making.
+- Troubleshoot complex data issues with business and perform root cause analysis and thereby proactively resolve any potential product- and /or operational issues (you build it, you own it!).
+- Craft and maintain documentation of all data & analytics initiatives.
+- Support and maintain the implemented solutions to ensure availability, compliant to the requirements set for the standardized products / client projects.","Your learnings from our clients and input will flow back in the Food For Analytics innovation program. We are constantly innovating in a scalable, flexible and robust way. Hence, we come together and work on internal projects, innovations, and propositions that will accelerate the digital transformation and data-centricity-programs for companies within the food-industry in an easy-going, friendly environment.
 
-You support risk management assignments with a
-focus on business processes and supporting IT. You're coming
-in touch with the latest developments where our
-customers are increasingly engaged, such as on it
-field of Cloud, AI, Robotics Process Automation,
-Blockchain.","You are concerned with analyzing which risks the financial reporting can pose
-influence and/or what risks companies can take for important business processes
-to improve. You are involved in the following key tasks:
+At Food For Analytics we value our employees and aim to maximize your potential so that you can become the expert in your field and thereby help our clients to the next level in their journey to data-centricity. ","- Perseverance, drive and a deep feeling of ownership.
+- A Passion for working with all kinds of data.
+- Strong analytical and technical expertise to link business requirements and definitions with it and vice versa.
+- MSc or BSc degree in Computing Science, Information Science or Econometrics, or similar.
+- 1-3-years’ experience and understanding in the Apache Big Data stack and / or Microsoft BI / Azure stack. 
+- 1-3-years’ experience of working with data solutions for small- to medium-sized businesses.
+- Experience and understanding of data modelling (Imnon, Kimball, Data Vault, Anchor Modeling, big data).
+- Able to communicate effectively both verbally and written, with team members and our stakeholders in both English and Dutch.
+- Understanding of data structures and filetypes such as Avro, Parquet, Json, CSV, TSV.
+- Understanding of solution- and technical-design and -architectures.",Food for Analytics,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/h4ffjcu8po5Z9aT94x1h.png,"glide:mesh,Food for Analytics",,English - Dutch - German
+k6zDYaC5RiW85McgaCzYPA,H.-hSQUORYuJaNMVGnvMng,Active,Data Engineer,Fulltime,Food,Tilburg,Hybride,20,40,"English,Dutch,German",WO,"Do you want to work in the team that is building the next generation data platform for the food-industry? Do you want to work with the latest and greatest tech and ready to actually make an impact? Stop looking any further. We need you! 
 
-- Support in the development and assessment of internal control frameworks;
-- Support in providing insight into important processes, risks and existing control measures;
-- Support in developing and testing control measures;
-- Ensuring that the work goes according to plan and is done well;
-- Participate in sales proposals;
-- Writing and co-writing relevant articles;","- A fixed salary.
-- Always keep growing. With our development program.
-- Reimbursement for your home workplace in an ergonomic
-responsible way and an internet fee.
-- Flexible working hours, you share your own agenda.
-- 26 vacation days per year with full-time employment and the
-possibility to purchase additional days.
-- Exchange 3 national holidays for 3 non-national holidays.
+As our Data Engineer you will play a key role in the FFA-team and our clients whilst working in close collaboration with our data & analytics consultants. You are the person that will make our client’s desire for insights become a reality by leveraging next gen technology! In your role, you will also be helping out other Engineers of the team and enable them to grow to the next level! ","- Together with the cloud and data architects – design, build, and implement generic data extraction, preparation, and consumption-patterns for data from a variety of sources into our standardized products / client projects. Preferable in an automated fashion! 
+- Design and implement product features into our standardized products and client projects 
+- Anticipate, identify, and solve issues concerning data management to improve data quality 
+- Clean, prepare, and structure data at scale for ingestion and consumption. 
+- Analyze and profile data for the purpose of designing scalable, flexible and robust solutions 
+- Be able to work independent and proactively to resolve any potential product- and /or operational issues and be eager to learn new techniques. 
+- Craft and maintain documentation of all Food For Analytics data & analytics initiatives.  
+- Support and maintain the implemented solutions to ensure availability, compliant to the requirements set for the standardized products / client projects. ","Your excellent engineering capabilities will be the bedrock for the Food For Analytics innovation program. We are constantly innovating in a scalable, flexible and robust way. Hence, we come together and work on internal projects, innovations, and propositions that will accelerate the digital transformation and data-centricity-programs for companies within food-industry in an easy-going, friendly environment and great team. We need you to build, innovate and own it! 
 
-If you want.
-- A laptop. Also for private use.
-- A pension scheme where your own contribution is only 2%.
+At Food For Analytics we value our employees and aim to maximize your potential so that you can become the expert in your field and thereby help our clients to the next level in their journey to data-centricity. ","- Perseverance, drive and a deep feeling of ownership.
+- A Passion for working with all kinds of data.
+- The ability and willingness to learn new things and thereby continuously evolve yourself.
+- Analytical and technical problem-solving mindset.
+- MSc or BSc degree in Computing Science, Information Science or Econometrics, or similar.
+- 1-3-years' experience of project experience in Data Engineering roles.
+- 1-3-years' experience and understanding in the Apache Big Data stack and / or Microsoft BI / Azure stack.
+- Understanding of data modelling (Imnon, Kimball, Data Vault, Anchor Modeling, big data).
+- Understanding of data structures and filetypes such as Avro, Parquet, Json, CSV, TSV.
+- Able to communicate effectively both verbally and written, with team members and our stakeholders.
+- Experience with programming languages such as SQL, C#, Python.
+- Experience with source control tools such as GitHub and related engineering processes.",Food for Analytics,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/h4ffjcu8po5Z9aT94x1h.png,"glide:mesh,Food for Analytics",,English - Dutch - German
+xpEOOL14Rv-YvdNPjp1cFQ,H.-hSQUORYuJaNMVGnvMng,Active,Data & Analytics Internship,Intern,Food,Tilburg,Hybride,2.5,40,"English,Dutch,German",WO,"You are involved in unlocking data from various sources. Transforming data. And creating various dashboards. Your first step as a data & analytics professional. Our platform helps customers gain data insights faster and more efficiently to make a difference! That's what everyone wants, right? During your internship you can focus on, among other things:
 
-For later.
-- A time-by-time arrangement. Use the time you have on one
-moment more in moments that matter to you.
-- Ability to participate in the collective
-health insurance scheme.
-- Tax benefits. Think corporate fitness, it
-purchasing a bicycle against gross salary or the possibility
-to lease a bicycle.
-- The possibility to use 55 hours of babysitting service
-per calendar year, if your child is 12 or younger.
-- A monthly budget that allows you to make choices in
-flexible working conditions such as extra holidays or the
-financing a bicycle plan.
-- Six weeks of fully paid maternity leave for traditional
-households and rainbow families.","As a working student you are interested in business processes and risks within organizations.
-You are very strong in analytical and substantive terms, but you can also do your own like no other
-transfer insights to the customer in an understandable way. Besides, you are someone
-who enjoys working well with many different stakeholders.
+Data visualizations & dashboards (Power BI)
+Data processing end-2-end (Azure, SQL, Python)
+Platform & Infra automation (Docker, terra form, c#)
+Based on the above elements, we will discuss the graduation topic with you. In this way we jointly formulate a good assignment and determine the exact goal.",The internship will take place at our office in Rijen. But you can also work from home. You will be supervised by a permanent senior consultant. Progress is discussed. It concerns a challenging graduation internship where you get to know the profession by data specialists. And you will experience what it is like to be a data & analytics professional. In this way you are making an excellent start to your career. Do you have an innovative idea!? Then we'll get started right away. Nothing is too crazy for us. Taking initiative is rewarded!,"Since Sjors & Gert-Jan started working together, they have been inseparable. When they noticed that many food companies lacked data insight, they took the next step. Together, they founded Food For Analytics. Both are completely different, but jointly strive to combat waste in the food industry. In a time of economic uncertainty, we want to create impact within the food industry through Data & Analytics. Level the playing field for everyone! Big or small. Be able to do more with less. And create a more efficient business process! That's what every food company wants!
 
-Furthermore, for this vacancy you have:
+To achieve this, we have developed our own data & analytics platform. This allows us to quickly create valuable insights. Now we're going to put this on the market, and we need you! Our team currently consists of 5 employees (excluding external HR Advisor and Virtual Assistant). All specialized in different disciplines. We are enthusiastic and create an environment to learn from each other. A cool place to work is important. Above all, everyone should be able to do their job. Without hassle. Without any problems. And with the right technology. We take care of it!
 
-- An almost completed university study in e.g. Business Information - Management, Business Studies, Business Administration, (Business) Economics, Finance, Business Administration or Accountancy & Control;
-- Strong affinity with organizational processes and risk management;
-- A good mastery of the Dutch and English language in word and writing;
-- Good communicative properties and professional appearance;
-- Ambitious, independent, and decisive;
-- Analytical and result-oriented, with an eye for quality",StuDirect,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/xDs6DsFMh3FllapKJNue.png,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/3rCeQ1amvRDzr8XZ5QWe.jpeg,"Personal Growth,Making Impact"
+- An educational and pleasant working environment with awesome colleagues.
+- Various practical project experiences.
+- A competitive internship compensation of 40 hours (full-time).
+- The possibility of a permanent job.
+- And moreover: fun, coffee, chicken sandwich on Friday and great memories!","An enthusiastic, independent student in the direction of Business IT & Management, Informatics or Technical Informatics who wants to work with data during their Internship.
+
+Someone who knows what we need. Our team is small but very driven! Are you our new sparring partner and do you like to take care of things? Then we are looking for you!",Food for Analytics,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/h4ffjcu8po5Z9aT94x1h.png,"glide:mesh,Food for Analytics",,English - Dutch - German
+a-Lr.-KjKSEaWwvYJwITNkQ,H.-hSQUORYuJaNMVGnvMng,Active,Marketing - Internship,Intern,Food,Tilburg,Hybride,2.5,40,"English,Dutch,German",WO,"As a marketer, you are first doing a market analysis for Food For Analytics (FFA). This analyses is used as input for drawing up a marketing strategy. Then it is your job to implement and coordinate the strategy. The goal is to take Food For Analytics to a much higher level in the field of marketing and content. Which will lead to big sales! Would you like to contribute to that? And to create an impact in the food-industry? Do not hesitate and contact us!",The internship will take place at our office in Rijen. But you can also work from home. You will be supervised by a permanent senior consultant. Progress is discussed. It concerns a challenging graduation internship where you get to know our profession and where you are directly responsible for our marketing activities. Do you have an innovative idea!? Then we'll get started. Nothing is too crazy for us. Taking initiative is rewarded!,"Since Sjors & Gert-Jan started working together, they have been inseparable. When they noticed that many food companies lacked data insight, they took the next step. Together, they founded Food For Analytics. Both are completely different, but jointly strive to combat waste in the food industry. In a time of economic uncertainty, we want to create impact within the food industry through Data & Analytics. Level the playing field for everyone! Big or small. Be able to do more with less. And create a more efficient business process! That's what every food company wants!
+
+To achieve this, we have developed our own data & analytics platform. This allows us to quickly create valuable insights. Now we're going to put this on the market, and we need you! Our team currently consists of 5 employees (excluding external HR Advisor and Virtual Assistant). All specialized in different disciplines. We are enthusiastic and create an environment to learn from each other. A cool place to work is important. Above all, everyone should be able to do their job. Without hassle. Without any problems. And with the right technology. We take care of it!
+
+- An educational and pleasant working environment with awesome colleagues.
+- Various practical project experiences.
+- A competitive internship compensation of 40 hours (full-time).
+- The possibility of a permanent job.
+- And moreover: fun, coffee, chicken sandwich on Friday and great memories!","An enthusiastic, independent student in the direction of Commercial Economics or Marketing Management who dares to make choices.
+
+Someone who knows what we need and knows how to let us grow. Our team is small but very driven! Are you our new sparring partner and do you like to take care of things? Then we are looking for you!",Food for Analytics,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/h4ffjcu8po5Z9aT94x1h.png,"glide:mesh,Food for Analytics",,English - Dutch - German
+lyqjIAkxS2qYlpEpZsqggg,cqXxLg26Qumm-2aXoCTJRQ,Active,Commercial Intern London,Intern,Travelling,Amsterdam,On-site,2.5,40,"English,German,French",HBO,"As a Commercial Intern at Hotelplanner, you’ll work on meaningful projects that innovate
+travel, and be a part of a supportive culture of inclusivity and impact. 
+
+We pave the route for our early careers talent to go far and fast with accelerated career development. By joining Hotelplanner Internship Program as a Commercial Intern, you’ll fully integrate into our inclusive community and gain a well-rounded experience of life at Hotelplanner.
+
+About the Internship:
+- Orientation: onboarding with technical skills training and an introduction to Hotelplanner
+- Support: continuous coaching, and advice, provided by a dedicated manager and a mentor – This will be the co-founder of Booking.com
+- Project work: interns enjoy a great level of responsibility and complete incredible projects on exciting travel technology opportunities
+- Travel perks: enjoy travel discount coupons for hotels
+- Conversion: a high proportion of our Interns secure full-time job offers following the program","- Commercial Partnerships
+- Hotel Account Management
+- Media & Brand Partnerships
+- Strategic Travel Partners
+- Support our Team worldwide
+- Help with planning meetings on coming events
+
+You’ll additionally assist your team in growing and optimizing our hotel partner portfolio. Using a consultative approach to uncover the needs of an account and aligning the best solution to add value to the partner and the traveler.
+
+You’ll be delivering exceptional value to travelers and partners through strategic relationships and solutions. We hope the above gives some insight into the incredible and exciting work","HotelPlanner is a leading travel technology company that combines proprietary artificial intelligence and a 24/7 gig economy-based reservations and customer service network, to quickly and seamlessly serve all traveller hotel & accommodation needs from a single platform.
+
+HotelPlanner is one of the world’s top providers of individual, group and corporate travel bookings, specializing in unique “Closed User Group” discount rates. Founded in 2003, HotelPlanner has enduring partnerships with the world’s largest Online Travel Agencies, well-known hotel chains, individual hotels, online wedding providers, ancillary lodging providers, corporations, sports franchises, universities and government agencies","Available to start in Jan/Feb 2023
+- Preferable English, French or German Speaking
+- Currently enrolled in an university graduating with a business degree (e.g., Business, Hospitality, Marketing, Economics)
+ - Effective communication skills and the ability to engage with a variety of partners and develop strong, lasting client relationships (internal and external).
+- High impact personality: intellectual agility, entrepreneurship, compassion in
+relationship, great teammate
+- Organization and time management skills, rigor, attention to details
+- Ability to multi-task effectively and be able to change gears quickly
+- Living or able to move to Amsterdam or London",Hotelplanner.com,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/FfaxkmH6ocoNLOyHiizi.jpg,"glide:mesh,Hotelplanner.com",,English - German - French
+XBW6LNUCROKzvtyrtz66AQ,cqXxLg26Qumm-2aXoCTJRQ,Active,Commercial Intern Amsterdam,Intern,Travelling,London,On-site,2.5,40,"English,German,French",HBO,"As a Commercial Intern at Hotelplanner, you’ll work on meaningful projects that innovatetravel, and be a part of a supportive culture of inclusivity and impact. We pave the route for our early careers talent to go far and fast with accelerated career development. By joining Hotelplanner Internship Program as a Commercial Intern, you’ll fully integrate into our inclusive community and gain a well-rounded experience of life at Hotelplanner.About the Internship:- Orientation: onboarding with technical skills training and an introduction to Hotelplanner- Support: continuous coaching, and advice, provided by a dedicated manager and a mentor – This will be the co-founder of Booking.com- Project work: interns enjoy a great level of responsibility and complete incredible projects on exciting travel technology opportunities- Travel perks: enjoy travel discount coupons for hotels- Conversion: a high proportion of our Interns secure full-time job offers following the program","- Commercial Partnerships 
+- Hotel Account Management 
+- Media & Brand Partnerships
+- Strategic Travel Partners
+- Support our Team worldwide
+- Help with planning meetings on coming events. 
+
+You’ll additionally assist your team in growing and optimizing our hotel partner portfolio. Using a consultative approach to uncover the needs of an account and aligning the best solution to add value to the partner and the traveler. You’ll be delivering exceptional value to travelers and partners through strategic relationships and solutions. We hope the above gives some insight into the incredible and exciting work""","HotelPlanner is a leading travel technology company that combines proprietary artificial intelligence and a 24/7 gig economy-based reservations and customer service network, to quickly and seamlessly serve all traveller hotel & accommodation needs from a single platform.HotelPlanner is one of the world’s top providers of individual, group and corporate travel bookings, specializing in unique “Closed User Group” discount rates. Founded in 2003, HotelPlanner has enduring partnerships with the world’s largest Online Travel Agencies, well-known hotel chains, individual hotels, online wedding providers, ancillary lodging providers, corporations, sports franchises, universities and government agencies","Available to start in Jan/Feb 2023
+- Preferable English, French or German Speaking
+- Currently enrolled in an university graduating with a business degree (e.g., Business,Hospitality, Marketing, Economics)
+-  Effective communication skills and the ability to engage with a variety of partners and develop strong, lasting client relationships (internal and external).
+- High impact personality: intellectual agility, entrepreneurship, compassion in relationship, great teammate
+- Organization and time management skills, rigor, attention to details
+- Ability to multi-task effectively and be able to change gears quickly
+- Living or able to move to Amsterdam or London""",Hotelplanner.com,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/FfaxkmH6ocoNLOyHiizi.jpg,"glide:mesh,Hotelplanner.com",,English - German - French
+a.W88WIUnTJasiP2DXNALVA,T6aoaVqHQXep.WdRg9quQg,Active,Marketing Internship,Intern,Subsidies,Amsterdam,On-site,2.5,40,Dutch,HBO,"Imagine: using your knowledge and experience for a better world. A cleaner environment, healthier food and safety. The Netherlands and Europe make subsidies available for these types of themes. And we help our customers apply for it. By diving deep into the project. Understand it and improve it where possible. If you succeed, you help the customer, and at the same time help the world. Isn't that ideal?","A marketing intern at a subsidy company will be responsible for assisting the marketing team with various tasks and projects. This will include conducting market research to gather information about target audiences and industry trends, helping to develop marketing strategies and campaigns, and assisting with the creation of marketing materials such as brochures, flyers, and social media content. The intern will also be responsible for helping to manage the company's website and social media accounts, as well as tracking and analyzing the success of marketing efforts.","As a subsidy company, we are dedicated to supporting the growth and development of businesses within our community. Our financial assistance, in the form of grants, loans, and tax breaks, is designed to help businesses expand and improve their operations. This not only benefits the individual companies that receive our support, but also helps to create a strong and thriving business environment. This in turn can lead to economic growth and development, benefiting the entire community. By choosing to work with us, businesses can take advantage of our expertise and resources, allowing them to focus on their core operations and achieve success. We are committed to helping businesses succeed and believe in the power of a thriving business community.","Our company is seeking a marketing intern with a strong attention to detail and excellent organizational skills. The ideal candidate will have a passion for marketing and a desire to learn and grow within the field. They will also be able to work well in a team environment and possess excellent communication skills. Previous experience with market research and creating marketing materials is a plus, but not required. The intern will have the opportunity to assist with various marketing projects and gain valuable experience within the industry. If you possess these qualities and are looking for a challenging and rewarding internship, we encourage you to apply.",WBSO Software Specialist,https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/B29nweXY06KVSBiSgnZz/pub/FDQn1N0OjQbm3ygUGoQt.jpeg,"glide:mesh,WBSO Software Specialist",,Dutch
