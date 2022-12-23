@@ -29,7 +29,7 @@ def pythonanywhere_api_call(data_from_glide):
         JSON: The output after running the script on Pythonanywhere.
     """
 
-    base_url = 'https://rijstkoker.pythonanywhere.com' # REPLACE THIS WITH THE STUDIRECT APP
+    base_url = 'http://rijstkoker.pythonanywhere.com/' # REPLACE THIS WITH THE STUDIRECT APP
 
     # the variables used for the recommender system
     payload = {'input': data_from_glide}
@@ -47,10 +47,10 @@ def google_api_call():
     """
 
     # connect to spreadsheets using json credentials
-    gc = gspread.service_account(filename='google_kevin.json') # REPLACE THIS WITH THE STUDIRECT CREDENTIALS
+    gc = gspread.service_account(filename='Credentials.json') # REPLACE THIS WITH THE STUDIRECT CREDENTIALS
 
     # open the worksheets and select the first; we don't have other worksheets
-    sh = gc.open_by_key('1T2If_xR-fhQw6hFejDxdPLLnz1J0lDstTKZ1FJVNwQI') # REPLACE THIS WITH THE STUDIRECT CREDENTIALS
+    sh = gc.open_by_key('1ajtIu6OrbVMTL_RG5wTLvHaD6-D5c8AtykoPKDKQ_-w') # REPLACE THIS WITH THE STUDIRECT CREDENTIALS
     worksheet = sh.sheet1
 
     # fetch data and return a Pandas DataFrame
@@ -58,7 +58,7 @@ def google_api_call():
 
     df = pd.DataFrame(results)
 
-    return print(df)
+    return df
 
 def clean(df):
     """This function cleans a row from a users/jobs dataframe.
@@ -109,7 +109,7 @@ def match_and_rank(user, jobs, top_n):
     """
 
     # create local student variable
-    student = clean(user)
+    student = user
 
     # student ID, job ID, and the cosine similarity score
     rank_list = []
